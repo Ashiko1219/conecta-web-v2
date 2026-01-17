@@ -1,7 +1,7 @@
 const plans = [
-  { speed: "300 Mbps", price: "S/ 49.90", note: "Ideal para uso diario" },
-  { speed: "500 Mbps", price: "S/ 69.90", note: "Streaming y trabajo remoto" },
-  { speed: "700 Mbps", price: "S/ 79.90", note: "Familia + varios equipos" },
+  { speed: "500 Mbps", price: "S/ 49.90", note: "Ideal para uso diario" },
+  { speed: "600 Mbps", price: "S/ 64.90", note: "Streaming y trabajo remoto" },
+  { speed: "750 Mbps", price: "S/ 79.90", note: "Familia + varios equipos" },
   { speed: "1000 Mbps", price: "S/ 99.90", note: "Gaming + 4K + todo a la vez" },
 ];
 
