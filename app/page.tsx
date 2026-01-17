@@ -36,7 +36,7 @@ export default function Page() {
         <div>
           <h1 style={h1}>Internet por Fibra Óptica</h1>
           <p style={subtitle}>
-            Fibra Conecta — velocidad real, estabilidad y soporte. Esta es la Web v2 (la que sí vamos a pulir).
+            GRUPO CONECTA TELECOMUNICACIONES S.A.C. — velocidad real, estabilidad y soporte.
           </p>
 
           <div style={{ display: "flex", gap: 12, flexWrap: "wrap", marginTop: 16 }}>
