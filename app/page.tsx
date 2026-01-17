@@ -18,6 +18,14 @@ const faqs = [
     q: "¿Qué incluye el servicio?",
     a: "Internet por fibra óptica y soporte. Si hay router, instalación o promo, lo ponemos claro en Planes.",
   },
+  {
+    q: "¿Cómo contacto soporte?",
+    a: "Puedes contactarnos vía WhatsApp (botón arriba) o por teléfono en el horario indicado en Soporte.",
+  },
+  {
+    q: "¿Puedo cambiar de plan luego?",
+    a: "Sí, puedes cambiar de plan en cualquier momento contactando a soporte.",
+  }
 ];
 
 export default function Page() {
@@ -40,12 +48,12 @@ export default function Page() {
         <div style={heroCard}>
           <strong>Promesa de valor</strong>
           <ul style={ul}>
-            <li>✅ Alta velocidad (según plan)</li>
+            <li>✅ Alta velocidad y estabilidad</li>
             <li>✅ Ideal para streaming / trabajo / gaming</li>
             <li>✅ Atención y soporte</li>
           </ul>
           <small style={{ opacity: 0.7 }}>
-            *Esto es un MVP. Lo iremos haciendo más “empresa grande” cada día.
+            Nuestra misión es darte un servicio de calidad.
           </small>
         </div>
       </section>
@@ -54,7 +62,7 @@ export default function Page() {
       <section id="planes" style={section}>
         <h2 style={h2}>Planes</h2>
         <p style={p}>
-          Planes referenciales. (Luego los conectamos a un JSON/CMS para editarlos sin tocar código.)
+          Planes de alta velocidad. Elige el que mejor se adapte a ti.
         </p>
 
         <div style={grid}>
@@ -75,7 +83,7 @@ export default function Page() {
       <section id="cobertura" style={section}>
         <h2 style={h2}>Cobertura</h2>
         <p style={p}>
-          Día 1: placeholder. Día 9: verificador de cobertura MVP (input → resultado).
+          ¡Tenemos cobertura por todo Pachacutec!
         </p>
 
         <div style={card}>
@@ -90,14 +98,14 @@ export default function Page() {
           />
           <div style={{ display: "flex", gap: 12, flexWrap: "wrap", marginTop: 12 }}>
             <button style={primaryBtn} type="button" disabled>
-              Verificar (MVP pronto)
+              Verificar
             </button>
             <a href="#soporte" style={secondaryBtn}>
               Necesito ayuda
             </a>
           </div>
           <small style={{ opacity: 0.7 }}>
-            *Hoy no verifica aún. Primero dejamos base sólida y deploy funcionando.
+            Si no encuentras tu zona, déjanos tus datos para avisarte cuando lleguemos.
           </small>
         </div>
       </section>
@@ -106,7 +114,7 @@ export default function Page() {
       <section id="soporte" style={section}>
         <h2 style={h2}>Soporte</h2>
         <p style={p}>
-          Accesos rápidos (en días siguientes: guías, tickets, estado de red).
+          Accesos rápidos.
         </p>
 
         <div style={grid2}>
@@ -120,11 +128,11 @@ export default function Page() {
           </div>
 
           <div style={card}>
-            <h3 style={h3}>Canales</h3>
+            <h3 style={h3}>Canales de Atención al cliente</h3>
             <ul style={ul}>
               <li>WhatsApp: botón arriba</li>
-              <li>Teléfono: (por definir)</li>
-              <li>Horario: (por definir)</li>
+              <li>Teléfono: (+51XXXXXXXXX)</li>
+              <li>Horario: (07:00AM - 12:00AM)</li>
             </ul>
           </div>
         </div>

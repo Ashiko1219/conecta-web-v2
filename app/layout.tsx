@@ -30,7 +30,7 @@ export default function RootLayout({
           <div style={containerStyle}>
             <div style={brandStyle}>
               <span style={{ fontWeight: 800 }}>GRUPO CONECTA TELECOMUNICACIONES S.A.C.</span>
-              <span style={{ opacity: 0.7, marginLeft: 8 }}>Web v2</span>
+              <span style={{ opacity: 0.7, marginLeft: 8 }}>Ventanilla</span>
             </div>
 
             <nav aria-label="Navegación principal" style={navStyle}>
@@ -56,7 +56,7 @@ export default function RootLayout({
                 © {new Date().getFullYear()} Fibra Conecta. Todos los derechos reservados.
               </small>
               <small style={{ opacity: 0.75 }}>
-                Hecho con Next.js — versión “sin excusas” 😄    
+                Hecho con Next.js y mucho ❤️ por Conecta.
               </small>
             </div>
           </div>
